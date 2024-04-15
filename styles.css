@@ -1,0 +1,107 @@
+body {
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+nav a:hover {
+    background-color: #F2F2F2;
+    border-radius: 3px;
+    
+}
+
+nav {
+    
+    display: flex;
+    justify-content: left;
+}
+
+.link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    display: flex;
+    
+    float: right;
+}
+
+.link:hover {
+    background-color: #151515;
+}
+
+.foto {
+    margin-top: 30px;
+   margin-left: 30px;
+   width: 400px; 
+}
+
+article .fotoo{
+  display: inline-block;
+  position: absolute;
+}
+
+.fotoo h1{
+  width: 400px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+}
+
+.fotoo .one{
+  width: 550px;
+  position: absolute;
+  top: 200px;
+  left: 45%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.fotoo .two{
+  width: 550px;
+  position: absolute;
+  top: 300px;
+  left: 45%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
+.text{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
+}
+
+ .link1 {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    display:flex;
+    width: 280px;
+    text-align: center;
+    
+}
+
+.link1:hover {
+    background-color: #151515;
+}
